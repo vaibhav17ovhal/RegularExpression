@@ -18,11 +18,11 @@ namespace RegularExpression
         //abc.xyz@bridgelabz.com.in
 
         //public const string EMAIL_PATTERN = "^[a-zA-Z]{1,}$";
-        public const string EMAIL_PATTERN = "^[a-zA-Z]{1,}[.]{0,1}[a-zA-Z]{1,}[@]{1}[a-zA-Z]{1,}$";
-       
+        //public const string EMAIL_PATTERN = "^[a-zA-Z]{1,}[.]{0,1}[a-zA-Z]{1,}[@]{1}[a-zA-Z]{1,}$";
+        public const string EMAIL_PATTERN = "^[a-zA-Z]{1,}[.]{0,1}[a-zA-Z]{1,}[@]{1}[a-zA-Z]{1,}[.]{0,1}$";
 
 
-    public void Validate(string pinCode)
+        public void Validate(string pinCode)
         {
             if (Regex.IsMatch(pinCode, PIN_CODE))
             {
