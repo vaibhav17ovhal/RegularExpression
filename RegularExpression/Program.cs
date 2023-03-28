@@ -10,8 +10,12 @@ namespace RegularExpression
             Console.WriteLine();
 
             //UC1
+            //ValidatePinCode pin = new ValidatePinCode();
+            //pin.Validate("400088");
+
+            //UC2
             ValidatePinCode pin = new ValidatePinCode();
-            pin.Validate("400088");       
+            pin.Validate("A400088");
         }
     }
 }
