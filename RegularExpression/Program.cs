@@ -22,10 +22,12 @@ namespace RegularExpression
             //pin.Validate("400088C");
 
             //UC4
-            ValidatePinCode pin = new ValidatePinCode();
-            pin.Validate("400 088");
+            //ValidatePinCode pin = new ValidatePinCode();
+            //pin.Validate("400 088");
 
-
+            //UC1 (Email)
+            ValidatePinCode mail = new ValidatePinCode();
+            mail.Validate1("abc");
         }
     }
 }
