@@ -38,9 +38,12 @@ namespace RegularExpression
             //mail.Validate1("abc.xyz@bridgelabz.");
 
             //UC4 (Email)
-            ValidatePinCode mail = new ValidatePinCode();
-            mail.Validate1("abc.xyz@bridgelabz.com.in");
+            //ValidatePinCode mail = new ValidatePinCode();
+            //mail.Validate1("abc.xyz@bridgelabz.com.in");
 
+            //UC5 (Email)
+            ValidatePinCode mail = new ValidatePinCode();
+            mail.Validate1("Abc.xyz123@bridgelabz.com.in");
         }
     }
 }
