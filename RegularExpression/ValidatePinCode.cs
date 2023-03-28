@@ -10,9 +10,10 @@ namespace RegularExpression
     public class ValidatePinCode
     {
         //public const string PIN_CODE = "^[0-9]{6}$";
-        public const string PIN_CODE = "^[a-zA-Z]{1}[0-9]{6}";
+        //public const string PIN_CODE = "^[a-zA-Z]{1}[0-9]{6}$";
+        public const string PIN_CODE = "^[0-9]{6}[a-zA-Z]{1}$";
 
-        
+
         public void Validate(string pinCode)
         {
             if (Regex.IsMatch(pinCode, PIN_CODE))
