@@ -18,8 +18,13 @@ namespace RegularExpression
             //pin.Validate("A400088");
 
             //UC3
+            //ValidatePinCode pin = new ValidatePinCode();
+            //pin.Validate("400088C");
+
+            //UC4
             ValidatePinCode pin = new ValidatePinCode();
-            pin.Validate("400088C");
+            pin.Validate("400 088");
+
 
         }
     }
