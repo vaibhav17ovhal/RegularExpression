@@ -31,7 +31,7 @@ namespace RegularExpression
 
             //UC2 (Email)
             ValidatePinCode mail = new ValidatePinCode();
-            mail.Validate1("abcxyz@bridgelabz");
+            mail.Validate1("abc.xyz@bridgelabz");
 
         }
     }
