@@ -26,8 +26,13 @@ namespace RegularExpression
             //pin.Validate("400 088");
 
             //UC1 (Email)
+            //ValidatePinCode mail = new ValidatePinCode();
+            //mail.Validate1("abcxyz");
+
+            //UC2 (Email)
             ValidatePinCode mail = new ValidatePinCode();
-            mail.Validate1("abc");
+            mail.Validate1("abcxyz@bridgelabz");
+
         }
     }
 }
