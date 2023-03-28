@@ -19,7 +19,8 @@ namespace RegularExpression
 
         //public const string EMAIL_PATTERN = "^[a-zA-Z]{1,}$";
         //public const string EMAIL_PATTERN = "^[a-zA-Z]{1,}[.]{0,1}[a-zA-Z]{1,}[@]{1}[a-zA-Z]{1,}$";
-        public const string EMAIL_PATTERN = "^[a-zA-Z]{1,}[.]{0,1}[a-zA-Z]{1,}[@]{1}[a-zA-Z]{1,}[.]{0,1}$";
+        //public const string EMAIL_PATTERN = "^[a-zA-Z]{1,}[.]{0,1}[a-zA-Z]{1,}[@]{1}[a-zA-Z]{1,}[.]{0,1}$";
+        public const string EMAIL_PATTERN = "^[a-zA-Z]{1,}[.]{0,1}[a-zA-Z]{1,}[@]{1}[a-zA-Z]{1,}[.]{1}[a-z]{2,3}[.]{1}[a-z]{2}$";
 
 
         public void Validate(string pinCode)
